@@ -12,10 +12,10 @@ nav{
   position: fixed;
   height: 50px;
   width:100%;
-  background-color:#475952;
+  background-color:#1E4607;
   z-index: 99;
   text-align: center;
-  border-bottom: 2px solid white;
+  border-bottom: 4px solid 	white;
 }
 nav a {
   text-decoration:none;
@@ -29,39 +29,38 @@ nav a {
   background-repeat:no-repeat;
   background-attachment: fixed;
 }
-#homeSection h1{
-  color: black;
-}
 
 #title{
  position:absolute;
- bottom: 278px;
- left: 35%;
- border: 1px solid ivory;
- width: 325px;
- padding-left: 8px;
- animation-name: bounceIn;
+ bottom: 415px;
+ left: 38%;
+ align-self: center;
+ border: 1px solid #03053F;
+ width: 365px;
+ text-align:center;
+ letter-spacing: 6px;
+ font-family: arial;
 }
+
 .sectOne{
   background-image: url("../images/tetons.gif");
-  height:
 }
 .sectTwo{
-  background-color:#002255;
+  background-color:#B99B76;
 }
 
 #workSection{
-  background-color: #475952;
+  background-color: #0093CB;
 }
 .subSection{
   height: 50%;
 }
 #aboutSection{
-  background-color:#6934bb;
+  background-color:#001335;
 }
 #contactSection{
-  background-color:purple;
+  background-color:#429C47;
 }
 #portfolioSection{
-  background-color: #002255;
+  background-color:#76A526;
 }
