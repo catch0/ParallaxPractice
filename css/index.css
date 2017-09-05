@@ -32,7 +32,7 @@ nav a {
 
 #title{
  position:absolute;
- bottom: 415px;
+ bottom: 315px;
  left: 38%;
  align-self: center;
  border: 1px solid #03053F;
@@ -40,8 +40,13 @@ nav a {
  text-align:center;
  letter-spacing: 6px;
  font-family: arial;
+ font-weight: bold;
 }
 
+.shp{
+  font-weight: bold;
+  align-items: flex-start;
+}
 .sectOne{
   background-image: url("../images/tetons.gif");
 }
@@ -57,7 +62,19 @@ nav a {
 }
 #aboutSection{
   background-color:#001335;
+  div.circletag {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #E6E7ED;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
+.img-circle{
+  border-radius: 50%;
+  margin-top: 4rem;
+}
+
 #contactSection{
   background-color:#429C47;
 }

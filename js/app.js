@@ -14,28 +14,23 @@ function setBindings(){
   })
 }
 
-// var $tlt = $('.tlt').textillate({
-//     autoStart: false,
-//     in: { effect: 'hinge', callback: function(){
-//     $('.tlt').textillate('out');
-//     }},
-//     out:{effect: 'rollIn'}
-// });
-//
-// $('.tlt').hover(function () {
-//     $tlt.textillate('start');
-// });
 
 
+$('.texts').textillate({
+    minDisplayTime: 1000,
+    in: { effect: 'flipInX', sync: true },
+    out :{  delay: 3, effect: 'lightSpeedOut', sync: true},
+    loop: true
+});
 
 
 function rollShit(){
-  $(".tlt").hover(function(){
+  $(".shp").hover(function(){
     $(this).textillate({
 
       in:{ delay: 200,effect: 'hinge', shuffle:true,
       callback: function(){
-                $('.tlt').textillate('out');
+                $('.shp').textillate('out');
                 }},
       out: {effect: 'rollIn'}
    });
