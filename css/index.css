@@ -5,9 +5,6 @@ html, body {
   height:100%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin-bottom: 20px;
-}
 nav{
   position: fixed;
   height: 50px;
@@ -51,30 +48,25 @@ nav a {
   background-image: url("../images/tetons.gif");
 }
 .sectTwo{
-  background-color:#B99B76;
+  background-color:#001335;
 }
 
 #workSection{
   background-color: #0093CB;
 }
-.subSection{
+.subSection {
   height: 50%;
 }
-#aboutSection{
-  background-color:#001335;
-  div.circletag {
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: #E6E7ED;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-}
-.img-circle{
-  border-radius: 50%;
-  margin-top: 4rem;
-}
 
+#abt{
+  color: white;
+  padding-left: 5px;
+  padding-top: 55px;
+}
+#abt h2 {
+  text-decoration: underline;
+  padding-left: 122px;
+}
 #contactSection{
   background-color:#429C47;
 }
