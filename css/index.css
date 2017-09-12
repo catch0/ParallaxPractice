@@ -12,7 +12,11 @@ nav{
   background-color:#1E4607;
   z-index: 99;
   text-align: center;
-  border-bottom: 4px solid 	white;
+
+  opacity: 0.5;
+}
+nav:hover{
+  opacity: 1.0;
 }
 nav a {
   text-decoration:none;
@@ -24,7 +28,7 @@ nav a {
   height: 100%;
   background-size: cover;
   background-repeat:no-repeat;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 #title{
@@ -66,6 +70,12 @@ nav a {
 #abt h2 {
   text-decoration: underline;
   padding-left: 122px;
+}
+
+
+#abtcontent{
+  padding-top: 30px;
+
 }
 #contactSection{
   background-color:#429C47;
