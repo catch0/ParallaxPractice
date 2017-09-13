@@ -1,7 +1,7 @@
 $(document).ready(function(){
     setBindings();
-    rollShit();
     rollLoad();
+//    fadeIn();
 });
 
 function setBindings(){
@@ -22,14 +22,4 @@ function rollLoad(){
 }
 
 
-function rollShit(){
-  $(".shp").hover(function(){
-    $(this).textillate({
-      in:{ delay: 200,effect: 'pulse', shuffle:true,
-      callback: function(){
-                $('.shp').textillate('out');
-                }},
-      out: {effect: 'rollIn'}
-   });
-  });
-}
+

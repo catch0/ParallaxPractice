@@ -42,6 +42,7 @@ nav a {
  letter-spacing: 6px;
  font-family: arial;
  font-weight: bold;
+ opacity: 1;
 }
 
 .shp{
@@ -72,10 +73,12 @@ nav a {
   padding-left: 122px;
 }
 
-
 #abtcontent{
   padding-top: 30px;
-
+}
+.profile{
+    padding-left: 100px;
+    padding-top: 100px;
 }
 #contactSection{
   background-color:#429C47;
