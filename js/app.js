@@ -2,6 +2,7 @@ $(document).ready(function(){
     setBindings();
     rollLoad();
 //    fadeIn();
+    cartoonMe();
 });
 
 function setBindings(){
@@ -19,6 +20,15 @@ function rollLoad(){
       in:{ delay: 200,effect: 'rollIn', reverse:true},
       out: {effect: 'pulse', sequence: true}
    });
+}
+
+function cartoonMe(){
+    $(".me").click(function(){
+        var get = $(this).attr('other');
+        var cat = $(this).attr('src');
+        $(this).attr('src',get);
+        $(this).attr('other',cat);
+    })
 }
 
 

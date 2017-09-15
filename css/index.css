@@ -109,8 +109,12 @@ nav a {
     height: 50px;
 }
 
-.stauff:hover .img_descript{
-    visibility: visible;
+.icons .desc p {
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.stauff:hover .desc p {
     opacity: 1;
 }
 .img_descript {
