@@ -88,8 +88,47 @@ nav a {
   background-color:#76A526;
 }
 
+.bigsec{
+    align-items: baseline;
+}
 #db{
-    padding-left: 10px;
+    padding-left: 45px;
+}
+
+#languages{
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+#frameworks{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.stauff{
+    width: 50px;
+    height: 50px;
+}
+
+.stauff:hover .img_descript{
+    visibility: visible;
+    opacity: 1;
+}
+.img_descript {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(36, 62, 206, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
 }
 
 ul.ripple{
